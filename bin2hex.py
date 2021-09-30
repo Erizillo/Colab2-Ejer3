@@ -47,6 +47,7 @@ def bin2hex(numero_binario):
     return numero_hexadecimal
 
 
+
 if __name__ == "__main__":
     
     numero_binario = input("Escribe el número en binario que quieres convertir: ")
@@ -55,3 +56,9 @@ if __name__ == "__main__":
 
    
     print("El numero binario " + numero_binario + " es " + numero_hexadecimal + " en hexadecimal.")
+=======
+if __name__ == "__main__":
+    numero_binario = input("Escribe el número en binario que quieres convertir: ")
+    numero_hexadecimal = bin2hex(numero_binario)
+    print("El numero binario " + numero_binario + " es " + numero_hexadecimal + " en hexadecimal.")
+
