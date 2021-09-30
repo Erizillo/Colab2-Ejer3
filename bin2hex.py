@@ -45,7 +45,20 @@ def bin2hex(numero_binario):
         numero_hexadecimal += TablabinHex(n[i*4:i*4+4])
         
     return numero_hexadecimal
+
+
+
+if __name__ == "__main__":
+    
+    numero_binario = input("Escribe el número en binario que quieres convertir: ")
+
+       numero_hexadecimal = bin2hex(numero_binario)
+
+   
+    print("El numero binario " + numero_binario + " es " + numero_hexadecimal + " en hexadecimal.")
+=======
 if __name__ == "__main__":
     numero_binario = input("Escribe el número en binario que quieres convertir: ")
     numero_hexadecimal = bin2hex(numero_binario)
     print("El numero binario " + numero_binario + " es " + numero_hexadecimal + " en hexadecimal.")
+
